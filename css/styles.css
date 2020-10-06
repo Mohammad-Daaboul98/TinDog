@@ -1,0 +1,138 @@
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+body {
+  font-family: "Montserrat";
+}
+/************************ID**************/
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+#features {
+  padding:100px;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+#testimonials{
+  text-align: center;
+  background-color:#ef8172 ;
+  color: white;
+}
+#press{
+  padding-bottom: 3%;
+  background-color:#ef8172 ;
+  text-align: center;
+}
+#pricing{
+ padding: 7% 15%;
+  text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer{
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/***********************CLASS***********/
+ .container-fluid {
+  padding: 3% 15% 7%;
+  
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+  
+}
+.nav-item {
+  padding:1.6rem;
+  
+}
+.nav-link {
+  font-size: 1.2rem;
+} 
+.Download-btn {
+  margin: 5% 3% 5% 0;
+}
+.img-1 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.icon {
+  padding-bottom: 2rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.p1 {
+  color: #8f8f8f;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 1.875rem;
+}
+.Montserrat-img{
+  width:10% ;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo{
+  width: 13%;
+  margin: 1.5rem 1.5rem 2.5rem;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.h3-cta{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white; 
+}
+.p-footer{
+  color: #8f8f8f;
+}
+.icon-footer{
+  font-size: larger;
+  margin: auto 0.8rem 2rem 0.8rem ;
+}
+@media(max-width:1020px){
+  #title{
+    text-align: center;
+  }
+  .img-1{
+    position: static;
+   transform: rotate(0);
+
+  }
+}
